@@ -21,7 +21,7 @@
        let total=data.reduce(function(acc,el){
         return acc+ Number(el.price)
        },0)
-       document.getElementById("cart_total").innerText="total price"+total;
+       document.getElementById("cart_total").innerText="total price"+" "+total;
     
        let btn=document.createElement("button");
        btn.innerText="Remove";

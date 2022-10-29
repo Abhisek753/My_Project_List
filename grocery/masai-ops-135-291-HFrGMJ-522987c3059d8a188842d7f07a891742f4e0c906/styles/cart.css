@@ -28,3 +28,19 @@
     height: 60%;
     
 }
+#cart_total{
+    background-color:rgb(20, 66, 62);
+    width: 250px;
+    color: white;
+    text-align: center;
+}
+#checkout{
+    background-color:rgb(23, 80, 238);
+    width: 200px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+    
+}
