@@ -51,5 +51,54 @@
     background-color:rgb(50, 82, 170);
     color: white;
     margin-bottom: 50px;
+    }
+
+@media (max-width:590px){
+    #navbar{
+        
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    #go_to_cart{
+        margin-left: 40px;
+        font-size:large;
+        color:white;
+        background-color:aquamarine;
+        width: 10%;
+        height: 70%;
+    }
+    
+    #go_to_cart:hover,.add_to_cart:hover{
+        background-color: red;
+    }
+    
+    #items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+        gap: 10px;
+        margin-top: 10px;
+        border: 0px solid red;
+    }
+    .item{
+       
+        font-size:large;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        
+    }
+    
+    .img{
+        width: 100%;
+        height: 60%;
+        
+    }
+    .item>button{
+        background-color:rgb(50, 82, 170);
+        color: white;
+        margin-bottom: 50px;
+        }
     
 }
